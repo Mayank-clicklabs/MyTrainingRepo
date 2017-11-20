@@ -7,6 +7,7 @@ res.send('welcome to first page');
 
 });
 app.get('/sp',function(req,res)
+
 {
 console.log("second page");
 res.send('welcome to second page');
