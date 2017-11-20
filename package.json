@@ -1,0 +1,32 @@
+{
+  "name": "getting-started",
+  "version": "1.0.0",
+  "description": "This project demonstrates how to use forms in Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbassoftware/forms-in-nodejs.git"
+  },
+  "author": "Abbas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abbassoftware/forms-in-nodejs/issues"
+  },
+  "homepage": "https://github.com/abbassoftware/forms-in-nodejs",
+  "dependencies": {
+    "async-handler": "0.0.3",
+    "formidable": "^1.1.1",
+    "hapi": "^16.4.2",
+    "hapi-async-methods": "^1.0.4",
+    "hapi-auth-basic": "^4.2.0",
+    "hapi-geo-locate": "^2.2.1",
+    "inert": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^10.2.1"
+  }
+}
